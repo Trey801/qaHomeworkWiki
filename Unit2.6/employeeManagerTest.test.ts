@@ -38,7 +38,7 @@ import {Builder,By, Capabilities, until, WebDriver, } from 'selenium-webdriver'
 }
 
 const emPage = new employeePage(driver)
-
+// I was stuck on this for days, idk why it took so long to click
   describe("Employee Manger Test", () => {
       beforeEach(async () => {
           await emPage.navigate()
